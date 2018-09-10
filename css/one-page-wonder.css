@@ -1,0 +1,193 @@
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-image: url("../img/bg-flag3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  color: #fff;
+  font-size: 4rem;
+  text-shadow: 1px 1px #000;
+}
+header.masthead .masthead-content .masthead-heading .title3 {
+  color: gold;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #f6bb3c;
+  border-color: #f6bb3c;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #f4aa0b !important;
+  border-color: #f4aa0b !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.custom-email-validation-error {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+.custom-email-validation-error.show-error {
+  display: block;
+}
+.product-top,
+.history-top {
+  padding-top: 100px;
+}
+
+
+.shares .a2a_kit.a2a_kit_size_32.a2a_default_style {
+  margin: 0 auto;
+  width: 300px;
+}
+.history-top .shares {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 30%;
+}
+.material-icons {
+  float: left;
+  font-size: 3em;
+  line-height: 35px;
+  padding: 0 20px;
+}
+.dtoa-history .excerpt {
+  font-size: 13px;
+  padding: 10px 30px;
+}
+.product-list ul {
+  list-style-type: none;
+}
+.product-list ul li {
+  clear: both;
+}
+.product-list ul li .product-wrap {
+  margin-bottom: 30px;
+}
+.product-list ul li div {
+  float: left;
+}
+.product-list ul li .left {
+  width: 33%;
+}
+.product-list ul li .right {
+  width: 66%;
+}
+.product-list ul li div p {
+  padding: 10px 20px;
+}
+.product-list ul li div img {
+  display: block;
+  width: 100%;
+}
+
+#history .dtoa-history img,
+#history .us-history img {
+  height: 200px;
+  width: 33%;
+}
