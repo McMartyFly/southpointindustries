@@ -59,6 +59,10 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+header.masthead.signup {
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+}
 
 header.masthead .masthead-content {
   z-index: 1;
